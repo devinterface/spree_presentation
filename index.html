@@ -40,320 +40,717 @@
 
 		<div class="reveal">
 
-			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
-				<section>
-					<h1>Reveal.js</h1>
-					<h3>HTML Presentations Made Easy</h3>
-					<p>
-						<small>Created by <a href="http://hakim.se">Hakim El Hattab</a> / <a href="http://twitter.com/hakimel">@hakimel</a></small>
-					</p>
-				</section>
+    <section class="stack" data-id="32503fa77f24c755dbb08a133e05c5ea">
+        <section class="" data-id="877e1f877cdc2c0bc3830f84499cd96c">
+            <h1>Spree Ecommerce</h1>
+<div>Commit University Workshop</div>
+<div>
+<span style="font-size: 36px; background-color: rgba(0, 0, 0, 0.0898438); ">19/06/2014</span>
+            <br>
+</div>
+<div>
+            <br>
+        </div>
+<div>
+        <br>
+    </div>
+<div>
+    <br>
+</div>
+<div>Stefano Mancini</div>
+<div>
+<br>
+</div>
+<div>
+<br>
+</div>
+<div>
+<br>
+</div>
+<div>
+<br>
+</div>
+<div style="text-align: center;">
+<a href="http://www.devinterface.com">
+    <font style="font-size: 18px; ">http://www.devinterface.com</font>
+</a>
+</div>
+</section>
+<section class="" data-id="a86a598e536608fef1d550f78fde151b">
+    <h2>STEFANO MANCINI</h2>
+<div>
+    <br>
+</div>
+<div>
+<ul>
+<li>Co-Founder di DevInterface snc</li>
+<ul>
+<li>
+    <a href="http://www.devinterface.com">
+        <font style="font-size: 24px; ">http://www.devinterface.com</font>
+    </a>
+</li>
+</ul>
+<li>Agile Web Developer</li>
+<li>Startupper&nbsp;</li>
+<ul>
+<li>
+    <font style="font-size: 24px; ">Globitalia srl</font>
+</li>
+</ul>
+<li>Laureato in Informatica a Verona</li>
+<li>Contatti:</li>
+<ul>
+<li>
+<font style="font-size: 24px; ">stefano.mancini@devinterface.com</font>
+</li>
+<li>
+<a href="https://twitter.com/stefano_mancini">
+    <font style="font-size: 24px; ">https://twitter.com/stefano_mancini</font>
+</a>
+</li>
+<li>
+<a href="http://it.linkedin.com/in/mancinistefano/">
+    <font style="font-size: 24px; ">http://it.linkedin.com/in/mancinistefano/</font>
+</a>
+</li>
+</ul>
+</ul>
+</div>
+</section>
+<section class="" data-id="dcee29b60d70a327b00500e093f80f23">
+    <h2>AGENDA</h2>
+<div>
+    <br>
+</div>
+<div>
+<br>
+</div>
+<div>
+    <ul>
+        </ul>
+<ol>
+<li>introduzione a Spree Ecommerce<br>
+</li>
+<li>funzionalità principali</li>
+<li>architettura</li>
+<li>estensioni ufficiali e popolari</li>
+<li>come scrivere un'estensione</li>
+<li>considerazioni finali</li>
+<li>Q&amp;A</li>
+</ol>
+<ul>
+</ul>
+</div>
+</section>
+<section class="" data-id="8108e80adfeb342042e4706bfc3eaa97">
+    <h2>Perchè spree?</h2>
+<div>
+    <br>
+</div>
+<div style="text-align: center;">ecommerce opensource<br>
+<br>
+<div style="text-align: center;">l'unica vera soluzione di ecommerce per RoR</div>
+<br>
+</div>
 
-				<section>
-					<h2>Heads Up</h2>
-					<p>
-						reveal.js is a framework for easily creating beautiful presentations using HTML. You'll need a browser with
-						support for CSS 3D transforms to see it in its full glory.
-					</p>
+<div style="text-align: center;">perché siamo sviluppatori e ci piace poter personalizzare i prodotti&nbsp; secondo le esigenze dei clienti<br>
+</div>
+<br>
+<div style="text-align: center;">demo site: <a href="http://demo.cloud-ecommerce.it">
+<font style="font-size: 24px; ">http://demo.cloud-ecommerce.it</font>
+</a>
+<br>
+<br>demo code: <font style="font-size: 24px;">
+<a href="https://github.com/devinterface/commit_university_demo">https://github.com/devinterface/commit_university_demo</a>
+</font>
+<br>
+</div>
+</section>
+<section class="" data-id="b6835ae3d713fb484e8b206e3a2cf25e">
+    <h2>overview - homepage</h2>
+<img style="width: 611.734px; height: 560px; max-height: none; max-width: none;" src="https://s3.amazonaws.com/devinterface/presentations/spree/Fabbrica+di+Babbo+Natale+Store+-+Home.png">
+</section>
+<section class="" data-id="7796c16217df5b6e03b5f03f83f099ff">
+    <h2>overview - lista prodotti</h2>
+<img style="width: 467.303px; height: 581px; max-height: none; max-width: none;" src="https://s3.amazonaws.com/devinterface/presentations/spree/Fabbrica+di+Babbo+Natale+Store+-+Elenco.png">
+</section>
+<section class="" data-id="e557fffea3188b0f6de5c20650030283">
+    <h2>overview - dettaglio prodotto</h2>
+<img style="width: 913.433px; height: 476px; max-height: none; max-width: none;" src="https://s3.amazonaws.com/devinterface/presentations/spree/Fabbrica+di+Babbo+Natale+Store+-Dettaglio.png">
+</section>
+<section class="" data-id="e70b03dca6b6bea0e1241acad5bbfee2">
+    <h2>overview - checkout prodotto</h2>
+<img style="width: 770.836px; height: 599px; max-height: none; max-width: none;" src="https://s3.amazonaws.com/devinterface/presentations/spree/Fabbrica+di+Babbo+Natale+Store+-+checkout_1.png">
+</section>
+<section class="" data-id="6318c11c5a9d777679f2feedbefd4e3b">
+    <h2>overview - admin prodotti</h2>
+<img style="width: 774.163px; height: 578px; max-height: none; max-width: none;" src="https://s3.amazonaws.com/devinterface/presentations/spree/admin-prodotti.png">
+</section>
+<section class="" data-id="cd33f5997961bb2ad6679ca4ff3d700a">
+    <h2>overview - admin ordini</h2>
+<img style="width: 927.924px; height: 432px; max-height: none; max-width: none;" src="https://s3.amazonaws.com/devinterface/presentations/spree/admin+Ordini.png">
+</section>
+<section class="" data-id="20661eebbb3a15bcdf89acae588cb755">
+    <h2>overview - admin configurazioni</h2>
+<img style="width: 926.575px; height: 523px; max-height: none; max-width: none;" src="https://s3.amazonaws.com/devinterface/presentations/spree/Admin+Configurazione.png">
+</section>
+<section class="" data-id="cacdb092fff060e78665ffd002f3bb78">
+    <h2>caratteristiche principali</h2>
+<div>
+    <br>
+</div>
+<div>
+<div style="text-align: center;">estensibile <font style="font-size: 24px;">(rails engines)</font>
+</div>
+<div style="text-align: center;">
+<br>seo friendly&nbsp;</div>
+<div style="text-align: center;">
+<font style="font-size: 24px; ">/t/categories/brand<br>/products/samsung-tv-t22c300-22-full-hd</font>
+</div>
+<div style="text-align: center;">
+<br>localizzazione del sito e dei contenuti</div>
+<div style="text-align: center;">
+<br>
+</div>
+<div style="text-align: center;">ricerche configurabili<font style="font-size: 24px; "> <font>(built-in, Solr, ElasticSeach)</font>
+</font>
+</div>
+<div style="text-align: center;">
+<br>
+<br>
+</div>
+</div>
+</section>
+<section class="" data-id="8f16fa63e4566e9ca4e90cc109081745">
+    <h2>CARATTERISTICHE PRINCIPALI</h2>
+<div>
+    <br>
+    </div>
+<div>
+<div style="font-family: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit;">supporto per temi grafici</div>
+<div style="font-family: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit;">
+<br style="background-color: rgba(0, 0, 0, 0.09);">interfacciabile con i maggiori gateway di pagamento&nbsp;</div>
+<div style="font-family: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit;">
+<font style="font-size: 24px; ">Paypal</font>
+    <font style="font-size: 24px; ">, Braintree, Stripe</font>
+</div>
+<div style="font-family: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit;">
+<br style="background-color: rgba(0, 0, 0, 0.09);">Mobile ready <font style="font-size: 24px;">(responsive , skeleton)</font>
+    <br>
+</div>
+<div style="font-family: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit;">
+<br style="background-color: rgba(0, 0, 0, 0.09);">API REST&nbsp;</div>
+</div>
+</section>
+<section class="" data-id="9bf2a1e4d65ba83c6f56b2df3c40a210">
+    <h2>ARchitettura</h2>
+<div>
+    <br>
+    </div>
+<div>core<font style="font-size: 18px; "> </font>
+    <font style="font-size: 24px; ">(<font>models, mailers e tutte le funzionalità principali</font>)</font>
+</div>
+<div>
+    <font style="font-size: 18px; ">
+        <br>
+    </font>
+    </div>
+<div>
+<font style="font-size: 32px; ">frontend</font>
+    <font style="font-size: 18px; "> </font>
+    <font style="font-size: 24px; ">(store, lista prodotti, dettaglio prodotti, checkout prodotti, area riservata utenti)</font>
+</div>
+<div>
+    <font style="font-size: 18px; ">
+        <br>
+    </font>
+    </div>
+<div>
+<font style="font-size: 32px; ">backend</font>
+    <font style="font-size: 18px; "> </font>
+    <font style="font-size: 24px; ">(area di amministrazione)</font>
+</div>
+<div>
+    <font style="font-size: 18px; ">
+        <br>
+    </font>
+    </div>
+<div>
+<font style="font-size: 32px; ">API RESTFUL</font>
+    <font style="font-size: 24px; "> (per integrarsi in lettura e scrittura con sistemi esterni)</font>
+</div>
+</section>
+<section class="" data-id="04082f66a03a37a4ce469234565a1d7a">
+    <h2>architettura - prodotti</h2>
+<img style="width: 927.913px; height: 458px; max-height: none; max-width: none;" src="https://s3.amazonaws.com/devinterface/presentations/spree/ER-spree_products.jpg">
+    <br>
+</section>
+<section class="" data-id="abae12c013d123a90c086e5bcd2324ed">
+    <h2>architettura - ordini<img style="width: 939.927px; height: 433px; max-height: none; max-width: none;" src="https://s3.amazonaws.com/devinterface/presentations/spree/ER-spree_orders.jpg">
+</h2>
+</section>
+<section class="" data-id="da6bf843278ab31725217a3be885d7de">
+    <h2>architettura - pagamenti</h2>
+<img style="width: 670.152px; height: 309px; max-height: none; max-width: none;" src="https://s3.amazonaws.com/devinterface/presentations/spree/payment_flow.jpg">
+<div>Check</div>
+<div>Bank Transfer</div>
+<div>Gateway</div>
+</section>
+<section class="" data-id="0276552938e439b854c163d637426bd4">
+    <h2>architettura - spedizioni</h2>
+<img style="width: 763.655px; height: 308px; max-height: none; max-width: none;" src="https://s3.amazonaws.com/devinterface/presentations/spree/shipment_flow.jpg">
+<div>shipping methods <font style="font-size: 24px; ">(spedizionieri)</font>
+</div>
+<div>zones <font style="font-size: 24px; ">(zone geografiche)</font>
+</div>
+<div>calculations <font style="font-size: 24px; ">(flat, per quantità, per peso)</font>
+</div>
+</section>
+<section class="" data-id="65fb3174b6643f2fc6fb3c085273b8f7">
+    <h2>architettura - magazzino</h2>
+<img style="width: 929.142px; height: 537px; max-height: none; max-width: none;" src="https://s3.amazonaws.com/devinterface/presentations/spree/ER-spree_stocks.jpg">
+</section>
+<section class="" data-id="14206bf71701a6e75dfecfad7af0c82b">
+    <h2>architettura - rest api <br>
+</h2>
+<p>
+    <br>
+</p>
+<p>Permette di leggere/scrivere ogni risorsa dell'ecommerce</p>
+<p>
+<br>
+</p>
+<p>Dipende dai permessi dell'API KEY utilizzata, quindi dai permessi dell'utente</p>
+<p>
+<br>
+</p>
+<p>Ritorna un JSON di risposta<br>
+</p>
+</section>
+<section data-id="0432a81b0790b419b9a8f5f12de76dbd" class="">
+<h2>architettura - rest api</h2>
+<pre><code>GET /api/products/1
+$ curl http://demo.cloud-ecommerce.it/api/products/1.json?token=YOUR_KEY_HERE
+</code></pre>
+<br>
+<pre><code> {<br>  "id": 1,<br>  "name": "Example product",<br>  "description": "Description",<br>  "price": "15.99",<br>  "display_price": "$15.99",<br>  "available_on": "2012-10-17T03:43:57Z",<br>  "permalink": "ruby-on-rails-tote",<br>  "meta_description": null,<br>  "meta_keywords": null,<br>  "taxon_ids": [<br>    1,<br>    2,<br>    3<br>  ],<br>  "shipping_category_id": 1,<br>  "has_variants": true,<br>  "master": {<br>    "id": 1,<br>    "name": "Ruby on Rails Tote",<br>    "sku": "ROR-00011",<br>    "price": "15.99",<br>    "display_price": "$15.99",<br>    "weight": null,<br>    "height": null,<br>    "width": null,<br>    "depth": null,<br>    "is_master": true,<br>    "cost_price": "13.0",<br>    "permalink": "ruby-on-rails-tote",<br>    "description": "A text description of the product.",<br>    "options_text": "(Size: small, Colour: red)",<br>    "in_stock": true,<br>    "option_values": [<br>      {<br>        "id": 1,<br>        "name": "Small",<br>        "presentation": "S",<br>        "option_type_name": "tshirt-size",<br>        "option_type_id": 1<br>      }<br>    ],<br>    "images": [<br>      {<br>        "id": 1,<br>        "position": 1,<br>        "attachment_content_type": "image/jpg",<br>        "attachment_file_name": "ror_tote.jpeg",<br>        "type": "Spree::Image",<br>        "attachment_updated_at": null,<br>        "attachment_width": 360,<br>        "attachment_height": 360,<br>        "alt": null,<br>        "viewable_type": "Spree::Variant",<br>        "viewable_id": 1,<br>        "mini_url": "/spree/products/1/mini/file.png?1370533476",<br>        "small_url": "/spree/products/1/small/file.png?1370533476",<br>        "product_url": "/spree/products/1/product/file.png?1370533476",<br>        "large_url": "/spree/products/1/large/file.png?1370533476"<br>      }<br>    ]<br>  },<br>  "variants": [<br>    {<br>      "id": 1,<br>      "name": "Ruby on Rails Tote",<br>      "sku": "ROR-00011",<br>      "price": "15.99",<br>      "display_price": "$15.99",<br>      "weight": null,<br>      "height": null,<br>      "width": null,<br>      "depth": null,<br>      "is_master": false,<br>      "cost_price": "13.0",<br>      "permalink": "ruby-on-rails-tote",<br>      "description": "A text description of the product.",<br>      "options_text": "(Size: small, Colour: red)",<br>      "in_stock": true,<br>      "option_values": [<br>        {<br>          "id": 1,<br>          "name": "Small",<br>          "presentation": "S",<br>          "option_type_name": "tshirt-size",<br>          "option_type_id": 1<br>        }<br>      ],<br>      "images": [<br>        {<br>          "id": 1,<br>          "position": 1,<br>          "attachment_content_type": "image/jpg",<br>          "attachment_file_name": "ror_tote.jpeg",<br>          "type": "Spree::Image",<br>          "attachment_updated_at": null,<br>          "attachment_width": 360,<br>          "attachment_height": 360,<br>          "alt": null,<br>          "viewable_type": "Spree::Variant",<br>          "viewable_id": 1,<br>          "mini_url": "/spree/products/1/mini/file.png?1370533476",<br>          "small_url": "/spree/products/1/small/file.png?1370533476",<br>          "product_url": "/spree/products/1/product/file.png?1370533476",<br>          "large_url": "/spree/products/1/large/file.png?1370533476"<br>        }<br>      ]<br>    }<br>  ],<br>  "product_properties": [<br>    {<br>      "id": 1,<br>      "product_id": 1,<br>      "property_id": 1,<br>      "value": "Tote",<br>      "property_name": "bag_type"<br>    }<br>  ],<br>  "option_types": [<br>    {<br>      "id": 1,<br>      "name": "tshirt-size",<br>      "presentation": "Size",<br>      "position": 1<br>    }<br>  ]<br>}</code></pre>
+<br>
+</section>
+<section class="" data-id="2bd9b3884892b0372b8a8b94de3225af">
+    <h2>estensioni - gemme ufficiali</h2>
+<div>
+    <br>
+</div>
+<div>
+<br>
+</div>
+<div class="absolute-element" style="position: absolute; width: 789.386px; height: 506px; z-index: 4; left: 108px; top: 101px; max-height: none; max-width: none;">
+<div style="text-align: left;">Spree Wishlist <font style="font-size: 18px;">(<a href="https://github.com/spree/spree_wishlist">https://github.com/spree/spree_wishlist</a>)</font>
+</div>
+<div style="text-align: left;">
+<br>
+</div>
+<div style="text-align: left;">Spree Recently Viewed <font style="font-size: 18px;">(<a href="http://github.com/spree/spree_recently_viewed">http://github.com/spree/spree_recently_viewed</a>)</font>&nbsp;</div>
+<div style="text-align: left;">
+<br>
+</div>
+<div style="text-align: left;">Spree Paypal Express <font style="font-size: 18px;">(<a href="http://github.com/spree/spree_paypal_express">http://github.com/spree/spree_paypal_express</a>)</font>
+</div>
+<div style="text-align: left;">
+<br>
+</div>
+<div style="text-align: left;">Spree i18n <font style="font-size: 18px;">(<a href="https://github.com/spree/spree_i18n">https://github.com/spree/spree_i18n</a>)</font>
+</div>
+<div style="text-align: left;">
+<br>
+</div>
+<div style="text-align: left;">Spree Social <font style="font-size: 18px;">(</font>
+<font style="font-size: 18px;">
+    <a href="http://github.com/spree/spree_comments">
+        <font style="font-size: 18px;">http://github.com/spree/spree_comments</font>
+    </a>)<br>
+</font>
+<br>Spree Related Products <font style="font-size: 18px;">(<a href="http://github.com/spree/spree_related_products">http://github.com/spree/spree_related_products</a>)</font>
+<br>
+</div>
+</div>
+<div>
+<br>
+</div>
+<div>
+<br>
+</div>
+</section>
+<section class="" data-id="d4df7af71ce94746dd3a25b58268cb52">
+    <h2>estensioni - altre gemme popolari</h2>
+<div>
+    <br>
+    </div>
+<div>Blogging Spree&nbsp; <font style="font-size: 18px;">(<a href="http://github.com/stefansenk/spree-blogging-spree">http://github.com/stefansenk/spree-blogging-spree</a>)</font>
+    <br>
+</div>
+<div>
+    <br>
+    </div>
+<div>Spree Simple CMS <font style="font-size: 18px;">(<a href="http://github.com/damianogiacomello/spree_simple_cms">http://github.com/damianogiacomello/spree_simple_cms</a>)</font>
+    <br>
+</div>
+<div>
+    <br>
+    </div>
+<div>Spree Loyalty Points <font style="font-size: 18px;">(<a href="http://github.com/vinsol/spree-loyalty-points">http://github.com/vinsol/spree-loyalty-points</a>)</font>
+    <br>
+</div>
+<div>
+    <br>
+    </div>
+<div>Spree Solr <font style="font-size: 18px;">(<a href="https://github.com/devinterface/spree_solr">https://github.com/devinterface/spree_solr</a>)</font>
+    <br>
+</div>
+<div>
+    <br>
+    </div>
+<div>Spree Monetaweb <font style="font-size: 18px;">(<a href="https://github.com/devinterface/spree_monetaweb">https://github.com/devinterface/spree_monetaweb</a>)</font>
+    <br>
+</div>
+</section>
+<section class="" data-id="9b54d800f48e4848a05748351b3e4b0c">
+    <h2>estendere spree</h2>
+<div>
+    <br>
+</div>
 
-					<aside class="notes">
-						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
-					</aside>
-				</section>
+<p>Override delle views:</p>
+<div>
+<br>
+</div>
+<div>
+<ul>
+    <li>Deface <font style="font-size: 18px;">(<a href="https://github.com/spree/deface">https://github.com/spree/deface</a>)</font>
+    <br>
+</li>
+</ul>
+</div>
+<div>
+<br>
+</div>
+<div>
+<ul>
+    <li>Template replacement<br>
+</li>
+</ul>
+</div>
+</section>
+<section class="" data-id="2be126a5459eeffee7bbc4500497c591">
+<h2>DEFACE</h2>
 
-				<!-- Example of nested vertical slides -->
-				<section>
-					<section>
-						<h2>Vertical Slides</h2>
-						<p>
-							Slides can be nested inside of other slides,
-							try pressing <a href="#" class="navigate-down">down</a>.
-						</p>
-						<a href="#" class="image navigate-down">
-							<img width="178" height="238" src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
-						</a>
-					</section>
-					<section>
-						<h2>Basement Level 1</h2>
-						<p>Press down or up to navigate.</p>
-					</section>
-					<section>
-						<h2>Basement Level 2</h2>
-						<p>Cornify</p>
-						<a class="test" href="http://cornify.com">
-							<img width="280" height="326" src="https://s3.amazonaws.com/hakim-static/reveal-js/cornify.gif" alt="Unicorn">
-						</a>
-					</section>
-					<section>
-						<h2>Basement Level 3</h2>
-						<p>That's it, time to go back up.</p>
-						<a href="#/2" class="image">
-							<img width="178" height="238" src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Up arrow" style="-webkit-transform: rotate(180deg);">
-						</a>
-					</section>
-				</section>
+<pre><code># app/views/spree/home/index.html.erb
 
-				<section>
-					<h2>Slides</h2>
-					<p>
-						Not a coder? No problem. There's a fully-featured visual editor for authoring these, try it out at <a href="http://slid.es" target="_blank">http://slid.es</a>.
-					</p>
-				</section>
+&lt;div data-hook="homepage_products"&gt;<br>&lt;ul id="products" class="inline product-listing" data-hook&gt;<br>    &lt;li id="product_2" class="columns three alpha" data-hook="products_list_item" itemscope itemtype="http://schema.org/Product"&gt;<br>      &lt;div class="product-image"&gt;<br>        &lt;a href="/products/apple" itemprop="url"&gt;&lt;img alt="Apple" itemprop="image" src="/spree/products/2/small/Red_Apple.jpg?1376258869" /&gt;&lt;/a&gt;<br>      &lt;/div&gt;<br>      &lt;a href="/products/apple" class="info" itemprop="name" title="Apple"&gt;Apple&lt;/a&gt;<br>      &lt;span class="price selling" itemprop="price"&gt;&amp;#x00A3;1.99&lt;/span&gt;<br>    &lt;/li&gt;<br>&lt;/ul&gt;
+</code></pre>
+<br>
 
-				<section>
-					<h2>Point of View</h2>
-					<p>
-						Press <strong>ESC</strong> to enter the slide overview.
-					</p>
-					<p>
-						Hold down alt and click on any element to zoom in on it using <a href="http://lab.hakim.se/zoom-js">zoom.js</a>. Alt + click anywhere to zoom back out.
-					</p>
-				</section>
+</section>
+<section class="" data-id="0bb282bc1eabc44bc78a4d4bd1671bf2">
+    <h2>DEFACE</h2>
+<div>
+    <br>
+</div>
+<pre><code>Deface::Override.new(:virtual_path  =&gt; "spree/home/index",<br>                     :replace =&gt; "[data-hook='homepage_products']",<br>                     :name          =&gt; "homepage_contents",<br>                     :partial =&gt; "home/homepage_contents")</code></pre>
+<br>
+</section>
+<section class="" data-id="774ebb29b1187fa98be4105ea3a68817">
+    <h2>estendere spree</h2>
+<div>
+    <br>
+</div>
+<div>Extend ed override di models e controllers:</div>
+<div>
+<br>
+</div>
 
-				<section>
-					<h2>Works in Mobile Safari</h2>
-					<p>
-						Try it out! You can swipe through the slides and pinch your way to the overview.
-					</p>
-				</section>
+<pre><code># app/models/spree/product_decorator.rb
 
-				<section>
-					<h2>Marvelous Unordered List</h2>
-					<ul>
-						<li>No order here</li>
-						<li>Or here</li>
-						<li>Or here</li>
-						<li>Or here</li>
-					</ul>
-				</section>
+Spree::Product.class_eval do
 
-				<section>
-					<h2>Fantastic Ordered List</h2>
-					<ol>
-						<li>One is smaller than...</li>
-						<li>Two is smaller than...</li>
-						<li>Three!</li>
-					</ol>
-				</section>
+  def some_method 
 
-				<section data-markdown>
-					<script type="text/template">
-						## Markdown support
+  end
 
-						For those of you who like that sort of thing. Instructions and a bit more info available [here](https://github.com/hakimel/reveal.js#markdown).
+end
+</code></pre>
+<br>
+</section>
+<section class="" data-id="e35107c06fbcdb6edf6e00a990f4b2de">
+<h2>Estendere spree</h2>
+<div>
+    <br>
+</div>
+<div>
+    <div style="font-family: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; font-size-adjust: inherit; font-stretch: inherit; -moz-font-feature-settings: inherit; -moz-font-language-override: inherit;">
+        Extend ed override di models e controllers:<br>
+        </div>
+    </div>
+    <div style="font-family: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; font-size-adjust: inherit; font-stretch: inherit; -moz-font-feature-settings: inherit; -moz-font-language-override: inherit;">
+        <br>
+    </div>
+<pre><code># app/controllers/spree/products_controller_decorator.rb
 
-						```
-						<section data-markdown>
-						  ## Markdown support
+Spree::ProductsController.class_eval do
+  def some_action
+    
+  end
+end
+</code></pre>
+<br>
+</section>
+<section class="" data-id="2439eafaa29c8c405a9103eed80c7797">
+    <h2>Estendere spree</h2>
+<div>
+    <br>
+</div>
+<div>Cambiare l'output di una action:<br>
+</div>
+<div>
+<br>
+</div>
+<pre><code><span style="font-size: 20px; "># app/controllers/spree/products_controller_decorator.rb</span></code><code>Spree::ProductsController.class_eval do
 
-						  For those of you who like that sort of thing.
-						  Instructions and a bit more info available [here](https://github.com/hakimel/reveal.js#markdown).
-						</section>
-						```
-					</script>
-				</section>
+  respond_override :index =&gt; { :html =&gt;
+    { :success =&gt; lambda { render 'shared/some_file' } } }
 
-				<section id="transitions">
-					<h2>Transition Styles</h2>
-					<p>
-						You can select from different transitions, like: <br>
-						<a href="?transition=cube#/transitions">Cube</a> -
-						<a href="?transition=page#/transitions">Page</a> -
-						<a href="?transition=concave#/transitions">Concave</a> -
-						<a href="?transition=zoom#/transitions">Zoom</a> -
-						<a href="?transition=linear#/transitions">Linear</a> -
-						<a href="?transition=fade#/transitions">Fade</a> -
-						<a href="?transition=none#/transitions">None</a> -
-						<a href="?#/transitions">Default</a>
-					</p>
-				</section>
-
-				<section id="themes">
-					<h2>Themes</h2>
-					<p>
-						Reveal.js comes with a few themes built in: <br>
-						<a href="?#/themes">Default</a> -
-						<a href="?theme=sky#/themes">Sky</a> -
-						<a href="?theme=beige#/themes">Beige</a> -
-						<a href="?theme=simple#/themes">Simple</a> -
-						<a href="?theme=serif#/themes">Serif</a> -
-						<a href="?theme=night#/themes">Night</a> <br>
-						<a href="?theme=moon#/themes">Moon</a> -
-						<a href="?theme=solarized#/themes">Solarized</a>
-					</p>
-					<p>
-						<small>
-							* Theme demos are loaded after the presentation which leads to flicker. In production you should load your theme in the <code>&lt;head&gt;</code> using a <code>&lt;link&gt;</code>.
-						</small>
-					</p>
-				</section>
-
-				<section>
-					<h2>Global State</h2>
-					<p>
-						Set <code>data-state="something"</code> on a slide and <code>"something"</code>
-						will be added as a class to the document element when the slide is open. This lets you
-						apply broader style changes, like switching the background.
-					</p>
-				</section>
-
-				<section data-state="customevent">
-					<h2>Custom Events</h2>
-					<p>
-						Additionally custom events can be triggered on a per slide basis by binding to the <code>data-state</code> name.
-					</p>
-					<pre><code data-trim contenteditable style="font-size: 18px; margin-top: 20px;">
-Reveal.addEventListener( 'customevent', function() {
-	console.log( '"customevent" has fired' );
-} );
-					</code></pre>
-				</section>
-
-				<section>
-					<section data-background="#007777">
-						<h2>Slide Backgrounds</h2>
-						<p>
-							Set <code>data-background="#007777"</code> on a slide to change the full page background to the given color. All CSS color formats are supported.
-						</p>
-						<a href="#" class="image navigate-down">
-							<img width="178" height="238" src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
-						</a>
-					</section>
-					<section data-background="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png">
-						<h2>Image Backgrounds</h2>
-						<pre><code>&lt;section data-background="image.png"&gt;</code></pre>
-					</section>
-					<section data-background="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" data-background-repeat="repeat" data-background-size="100px">
-						<h2>Repeated Image Backgrounds</h2>
-						<pre><code style="word-wrap: break-word;">&lt;section data-background="image.png" data-background-repeat="repeat" data-background-size="100px"&gt;</code></pre>
-					</section>
-				</section>
-
-				<section data-transition="linear" data-background="#4d7e65" data-background-transition="slide">
-					<h2>Background Transitions</h2>
-					<p>
-						Pass reveal.js the <code>backgroundTransition: 'slide'</code> config argument to make backgrounds slide rather than fade.
-					</p>
-				</section>
-
-				<section data-transition="linear" data-background="#8c4738" data-background-transition="slide">
-					<h2>Background Transition Override</h2>
-					<p>
-						You can override background transitions per slide by using <code>data-background-transition="slide"</code>.
-					</p>
-				</section>
-
-				<section>
-					<h2>Clever Quotes</h2>
-					<p>
-						These guys come in two forms, inline: <q cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
-						&ldquo;The nice thing about standards is that there are so many to choose from&rdquo;</q> and block:
-					</p>
-					<blockquote cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
-						&ldquo;For years there has been a theory that millions of monkeys typing at random on millions of typewriters would
-						reproduce the entire works of Shakespeare. The Internet has proven this theory to be untrue.&rdquo;
-					</blockquote>
-				</section>
-
-				<section>
-					<h2>Pretty Code</h2>
-					<pre><code data-trim contenteditable>
-function linkify( selector ) {
-  if( supports3DTransforms ) {
-
-    var nodes = document.querySelectorAll( selector );
-
-    for( var i = 0, len = nodes.length; i &lt; len; i++ ) {
-      var node = nodes[i];
-
-      if( !node.className ) {
-        node.className += ' roll';
-      }
-    }
+end
+</code></pre>
+<br>
+</section>
+<section class="" data-id="eec472889a0776f8a5ccd2b2516495f3">
+    <h2>estendere spree</h2>
+<div>
+    <br>
+</div>
+<div>Customizzare le dimensioni delle immagini:</div>
+<div>
+<br>
+</div>
+<pre><code>Spree::Image.class_eval do
+  attachment_definitions[:attachment][:styles] = {
+    :mini =&gt; '48x48&gt;', # thumbs under image
+    :small =&gt; '100x100&gt;', # images on category view
+    :product =&gt; '240x240&gt;', # full product image
+    :large =&gt; '600x600&gt;' # light box image
   }
-}
-					</code></pre>
-					<p>Courtesy of <a href="http://softwaremaniacs.org/soft/highlight/en/description/">highlight.js</a>.</p>
-				</section>
+end</code></pre>
+<br>
+</section>
+<section class="" data-id="ade952d6bfac04fdfdb75ddaeeefae97">
+    <h2>Estendere spree</h2>
+<div>la magia:<br>
+<br>
+</div>
+<pre><code><span style="font-size: 18px; "># config/application.rb</span></code><code><span style="font-size: 18px; ">module Mistercucina</span><br></code><code><font style="font-size: 18px; ">  class Application &lt; Rails::Application
+    
+    config.to_prepare do
+      # Load application's model / class decorators
+      Dir.glob(File.join(File.dirname(__FILE__), "../app/**/*_decorator*.rb")) do |c|
+        Rails.configuration.cache_classes ? require(c) : load(c)
+      end
 
-				<section>
-					<h2>Intergalactic Interconnections</h2>
-					<p>
-						You can link between slides internally,
-						<a href="#/2/3">like this</a>.
-					</p>
-				</section>
+      # Load application's view overrides
+      Dir.glob(File.join(File.dirname(__FILE__), "../app/overrides/*.rb")) do |c|
+        Rails.configuration.cache_classes ? require(c) : load(c)
+      end
+    end
+end</font></code></pre>
+<br>
+</section>
+<section class="" data-id="3553ebb179c49e33ec57d48c693cbf20">
+    <h2>creare un'estensione</h2>
+<div>
+    <br>
+</div>
+<pre><code>spree extension spree_monetaweb
 
-				<section>
-					<section id="fragments">
-						<h2>Fragmented Views</h2>
-						<p>Hit the next arrow...</p>
-						<p class="fragment">... to step through ...</p>
-						<ol>
-							<li class="fragment"><code>any type</code></li>
-							<li class="fragment"><em>of view</em></li>
-							<li class="fragment"><strong>fragments</strong></li>
-						</ol>
 
-						<aside class="notes">
-							This slide has fragments which are also stepped through in the notes window.
-						</aside>
-					</section>
-					<section>
-						<h2>Fragment Styles</h2>
-						<p>There's a few styles of fragments, like:</p>
-						<p class="fragment grow">grow</p>
-						<p class="fragment shrink">shrink</p>
-						<p class="fragment roll-in">roll-in</p>
-						<p class="fragment fade-out">fade-out</p>
-						<p class="fragment highlight-red">highlight-red</p>
-						<p class="fragment highlight-green">highlight-green</p>
-						<p class="fragment highlight-blue">highlight-blue</p>
-						<p class="fragment current-visible">current-visible</p>
-						<p class="fragment highlight-current-blue">highlight-current-blue</p>
-					</section>
-				</section>
+rails g migration add_monetaweb_payment_id_to_payments
 
-				<section>
-					<h2>Spectacular image!</h2>
-					<a class="image" href="http://lab.hakim.se/meny/" target="_blank">
-						<img width="320" height="299" src="http://s3.amazonaws.com/hakim-static/portfolio/images/meny.png" alt="Meny">
-					</a>
-				</section>
 
-				<section>
-					<h2>Export to PDF</h2>
-					<p>Presentations can be <a href="https://github.com/hakimel/reveal.js#pdf-export">exported to PDF</a>, below is an example that's been uploaded to SlideShare.</p>
-					<iframe id="slideshare" src="http://www.slideshare.net/slideshow/embed_code/13872948" width="455" height="356" style="margin:0;overflow:hidden;border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen> </iframe>
-					<script>
-						document.getElementById('slideshare').attributeName = 'allowfullscreen';
-					</script>
-				</section>
+# Gemfile
+gem 'spree_monetaweb', :path =&gt; '../spree_monetaweb'
 
-				<section>
-					<h2>Take a Moment</h2>
-					<p>
-						Press b or period on your keyboard to enter the 'paused' mode. This mode is helpful when you want to take distracting slides off the screen
-						during a presentation.
-					</p>
-				</section>
 
-				<section>
-					<h2>Stellar Links</h2>
-					<ul>
-						<li><a href="http://slid.es">Try the online editor</a></li>
-						<li><a href="https://github.com/hakimel/reveal.js">Source code on GitHub</a></li>
-						<li><a href="http://twitter.com/hakimel">Follow me on Twitter</a></li>
-					</ul>
-				</section>
+bundle install
 
-				<section>
-					<h1>THE END</h1>
-					<h3>BY Hakim El Hattab / hakim.se</h3>
-				</section>
 
-			</div>
+rails g spree_monetaweb:install
+</code></pre>
+
+
+<br>
+</section>
+<section class="" data-id="2a3fa4b615f8ce499c673179e77cdfed">
+    <h2>SPREE_MONETAWEB</h2>
+<p>
+    <br>
+</p>
+<p>engine.rb</p>
+<p>
+<br>
+</p>
+<p>
+<a href="https://github.com/devinterface/spree_monetaweb/blob/master/lib/spree_monetaweb/engine.rb">https://github.com/devinterface/spree_monetaweb/blob/master/lib/spree_monetaweb/engine.rb</a>
+<br>
+</p>
+</section>
+<section data-id="db2d65a619599a1e452762010b947524" class="">
+    <h2>SPREE_MONETAWEB</h2>
+<p>
+    <br>
+</p>
+<p>moneta_web.rb<br>
+</p>
+<p>
+<a href="https://github.com/devinterface/spree_monetaweb/blob/master/app/models/spree/payment_method/moneta_web.rb">
+    <br>
+</a>
+</p>
+<p>
+<a href="https://github.com/devinterface/spree_solr/blob/2-2-stable/lib/spree_solr/engine.rb">https://github.com/devinterface/spree_monetaweb/blob/master/app/models/spree/payment_method/moneta_web.rb</a>
+<br>
+</p>
+</section>
+<section data-id="f495d4e55bca556390e78d8e4f89e42e" class="">
+    <h2>SPREE_MONETAWEB</h2>
+
+<img style="width: 785px; height: 640.668px; max-height: none; max-width: none;" src="https://s3.amazonaws.com/devinterface/presentations/spree/MonetaWeb.png">
+</section>
+<section data-id="81d620434d62a860bcc56101c6c6c927" class="">
+    <h2>SPREE_MONETAWEB</h2>
+<p>
+    <br>
+</p>
+<p>checkout_controller_decorator.rb</p>
+<p>
+<br>
+</p>
+<p>
+<a href="https://github.com/devinterface/spree_monetaweb/blob/master/app/controllers/spree/checkout_controller_decorator.rb">https://github.com/devinterface/spree_monetaweb/blob/master/app/controllers/spree/checkout_controller_decorator.rb</a>
+<br>
+</p>
+</section>
+<section data-id="c47921f7b9b9e2d87db4261aee79a4f5" class="">
+    <h2>SPREE_MONETAWEB</h2>
+<p>
+    <br>
+</p>
+<p>monetaweb_controller.rb</p>
+<p>
+<br>
+</p>
+<p>
+<a href="https://github.com/devinterface/spree_monetaweb/blob/master/app/controllers/spree/monetaweb_controller.rb">https://github.com/devinterface/spree_monetaweb/blob/master/app/controllers/spree/monetaweb_controller.rb</a>
+<br>
+</p>
+<p>
+<br>
+</p>
+</section>
+<section data-id="dd83f028e127c52d27fe212f5cf6957d" class="">
+    <h2>SPREE_SOLR</h2>
+<p>
+    <br>
+</p>
+<p>engine.rb</p>
+<p>
+<br>
+</p>
+<p>
+<a href="https://github.com/devinterface/spree_solr/blob/2-2-stable/lib/spree/search/solr.rb">https://github.com/devinterface/spree_solr/blob/2-2-stable/lib/spree_solr/engine.rb</a>
+<br>
+</p>
+</section>
+<section data-id="aee146feddcd89ec24e6986a96a76d6d" class="">
+    <h2>spree_Solr</h2>
+<p>
+    <br>
+</p>
+<p>solr.rb<br>
+</p>
+<p>
+<br>
+</p>
+<p>
+<a href="https://github.com/devinterface/spree_solr/blob/2-2-stable/app/models/spree/product_decorator.rb">https://github.com/devinterface/spree_solr/blob/2-2-stable/lib/spree/search/solr.rb</a>
+<br>
+</p>
+</section>
+<section data-id="c4ad1afb21a150e0a5df92364b638f2c" class="">
+    <h2>spree_solr</h2>
+<p>
+    <br>
+</p>
+<p>product_decorator.rb</p>
+<p>
+<br>
+</p>
+<p>
+<a href="https://github.com/devinterface/spree_solr/blob/2-2-stable/app/models/spree/product_decorator.rb">https://github.com/devinterface/spree_solr/blob/2-2-stable/app/models/spree/product_decorator.rb</a>
+<br>
+</p>
+</section>
+<section data-id="83134fed3c74b47d6237b336c94f8cce" class="">
+    <h2>considerazioni finali</h2>
+<p>
+    <b>PRO</b>
+    <br>
+</p>
+<ul>
+<li>ottimo (praticamente l'unico) ecommerce per Rails</li>
+<li>permette di pubblicare soluzioni anche molto complesse</li>
+<li>è estensibile: si adatta alle esigenze più disparate dei clienti</li>
+<li>API<br>
+</li>
+</ul>
+<p>
+<br>
+</p>
+<p>
+<b>CONTRO</b>
+<br>
+</p>
+<ul>
+<li>pochi template html/css già pronti</li>
+<li>estensioni valide ma limitate (alcune non più aggiornate)</li>
+<li>è necessario saper mettere le mani sul codice<br>
+</li>
+</ul>
+</section>
+<section data-id="a122f5b2c660d0916c853cddae02e81a" class="">
+    <h1>
+        <br>
+    </h1>
+<h1>
+    <br>
+</h1>
+<h1>Q&amp;A<br>
+</h1>
+</section>
+<section data-id="0ae966461ba98c6fa825f7ea15c94599" class="">
+    <h2>grazie per l'attenzione</h2>
+<p>
+    <br>
+</p>
+<p>Stefano Mancini</p>
+<p>
+<br>
+</p>
+<p>DevInterface (<a href="http://www.devinterface.com">http://www.devinterface.com</a>)<br>
+</p>
+</section>
+</section>
+</div>
+
 
 		</div>
 
